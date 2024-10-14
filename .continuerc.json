@@ -6,7 +6,7 @@
       "provider": "openai",
       "model": "deepseek-coder-v2:16b",
       "apiKey": "",
-      "apiBase": "http://localhost:3333/v1"
+      "apiBase": "http://localhost:3334/v1"
     }
   ],
   "tabAutocompleteModel": {
@@ -14,7 +14,7 @@
     "provider": "openai",
     "model": "deepseek-coder-v2:16b",
     "apiKey": "",
-    "apiBase": "http://localhost:3333/v1"
+    "apiBase": "http://localhost:3334/v1"
   },
   "customCommands": [
     {

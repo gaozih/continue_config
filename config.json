@@ -1,0 +1,94 @@
+{
+
+  "models": [
+    {
+      "title": "deepseek",
+      "provider": "openai",
+      "model": "deepseek-coder-v2:236b",
+      "apiBase": "http://localhost:3333/v1"
+    },
+    {
+      "title": "qwen2.5:32b",
+      "provider": "openai",
+      "model": "qwen2.5:32b",
+      "apiBase": "http://localhost:3333/v1"
+    },
+    {
+      "title": "codegeex4:9b",
+      "provider": "openai",
+      "model": "codegeex4:9b",
+      "apiBase": "http://localhost:3334/v1"
+    }
+
+  ],
+  "tabAutocompleteModel": {
+    "title": "deepseek",
+    "provider": "openai",
+    "model": "deepseek-coder-v2:236b",
+    "apiKey": "",
+    "apiBase": "http://localhost:3333/v1"
+  },
+  "embeddingsProvider": {
+    "title": "embedding",
+    "provider": "openai",
+    "model": "znbang/bge:large-en-v1.5-f16",
+    "apiBase": "http://localhost:3333/v1"
+  },
+  "contextProviders": [
+    {
+      "name": "code",
+      "params": {}
+    },
+    {
+      "name": "docs",
+      "params": {}
+    },
+    {
+      "name": "diff",
+      "params": {}
+    },
+    {
+      "name": "terminal",
+      "params": {}
+    },
+    {
+      "name": "problems",
+      "params": {}
+    },
+    {
+      "name": "folder",
+      "params": {}
+    },
+    {
+      "name": "codebase",
+      "params": {}
+    },
+    {
+      "name": "file",
+      "params": {}
+    }
+  ],
+  "slashCommands": [
+    {
+      "name": "edit",
+      "description": "Edit selected code"
+    },
+    {
+      "name": "comment",
+      "description": "Write comments for the selected code"
+    },
+    {
+      "name": "share",
+      "description": "Export the current chat session to markdown"
+    },
+    {
+      "name": "cmd",
+      "description": "Generate a shell command"
+    },
+    {
+      "name": "commit",
+      "description": "Generate a git commit message"
+    }
+  ],
+  "allowAnonymousTelemetry": false
+}

@@ -2,10 +2,10 @@
 
   "models": [
     {
-      "title": "deepseek:236b",
+      "title": "codegeex4:9b",
       "provider": "openai",
-      "model": "deepseek-coder-v2:236b",
-      "apiBase": "http://localhost:3333/v1"
+      "model": "codegeex4:9b",
+      "apiBase": "http://localhost:3334/v1"
     },
     {
       "title": "qwen2.5:32b",
@@ -14,15 +14,9 @@
       "apiBase": "http://localhost:3333/v1"
     },
     {
-      "title": "codegeex4:9b",
+      "title": "deepseek:236b",
       "provider": "openai",
-      "model": "codegeex4:9b",
-      "apiBase": "http://localhost:3334/v1"
-    },
-    {
-      "title": "deepseek:16b",
-      "provider": "openai",
-      "model": "deepseek-coder-v2:16b",
+      "model": "deepseek-coder-v2:236b",
       "apiBase": "http://localhost:3333/v1"
     },
 

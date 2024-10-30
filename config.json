@@ -28,9 +28,9 @@
 
   ],
   "tabAutocompleteModel": {
-    "title": "deepseek",
+    "title": "auto complete model",
     "provider": "openai",
-    "model": "deepseek-coder-v2:16b",
+    "model": "codegeex4:9b",
     "apiKey": "",
     "apiBase": "http://localhost:3333/v1"
   },

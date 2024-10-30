@@ -18,7 +18,13 @@
       "provider": "openai",
       "model": "codegeex4:9b",
       "apiBase": "http://localhost:3334/v1"
-    }
+    },
+    {
+      "title": "deepseek:16b",
+      "provider": "openai",
+      "model": "deepseek-coder-v2:16b",
+      "apiBase": "http://localhost:3333/v1"
+    },
 
   ],
   "tabAutocompleteModel": {

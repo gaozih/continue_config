@@ -5,7 +5,7 @@
       "title": "codegeex4:9b",
       "provider": "openai",
       "model": "codegeex4:9b",
-      "apiBase": "http://localhost:3334/v1"
+      "apiBase": "http://localhost:3333/v1"
     },
     {
       "title": "qwen2.5:32b",

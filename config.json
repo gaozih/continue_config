@@ -30,7 +30,7 @@
   "tabAutocompleteModel": {
     "title": "deepseek",
     "provider": "openai",
-    "model": "deepseek-coder-v2:236b",
+    "model": "deepseek-coder-v2:16b",
     "apiKey": "",
     "apiBase": "http://localhost:3333/v1"
   },

@@ -2,7 +2,7 @@
 
   "models": [
     {
-      "title": "deepseek",
+      "title": "deepseek:236b",
       "provider": "openai",
       "model": "deepseek-coder-v2:236b",
       "apiBase": "http://localhost:3333/v1"
